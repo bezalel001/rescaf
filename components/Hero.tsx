@@ -35,12 +35,15 @@ export function Hero() {
           
           {/* CTAs */}
           <div className="flex flex-wrap gap-4 mb-16 rescaf-reveal rescaf-delay-3">
-            <Button 
-              size="lg" 
+            <Button
+              asChild
+              size="lg"
               className="bg-[#F5B700] hover:bg-[#e0a700] text-[#1B1F3B] px-8 py-6 text-lg"
             >
-              Explore our work
-              <ArrowRight className="ml-2 h-5 w-5" />
+              <a href="#products">
+                Explore our work
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
             <Button 
               size="lg" 
