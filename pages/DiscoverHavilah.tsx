@@ -9,7 +9,7 @@ export default function DiscoverHavilah() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6 bg-gradient-to-b from-blue-50 to-white">
+      <section className="pt-32 pb-20 px-6 bg-gradient-to-b from-[#F8F9FB] to-white">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl mb-6 text-gray-900">
             Havilah
@@ -21,7 +21,7 @@ export default function DiscoverHavilah() {
             Havilah is a learning platform that turns your goal into a step-by-step plan, short daily practice, real projects, and a shareable proof-of-skill profile.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-[#66b3ff] hover:bg-[#5599dd] text-white">
+            <Button size="lg" className="bg-[#1B1F3B] hover:bg-[#2E3A6A] text-white">
               Start with your goal
               <ArrowRight className="w-5 h-5" />
             </Button>
@@ -60,7 +60,7 @@ export default function DiscoverHavilah() {
               'Learn a skill systematically instead of randomly'
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-3 bg-white p-6 rounded-lg">
-                <CheckCircle className="w-6 h-6 text-[#66b3ff] flex-shrink-0 mt-1" />
+                <CheckCircle className="w-6 h-6 text-[#1B1F3B] flex-shrink-0 mt-1" />
                 <p className="text-gray-700">{item}</p>
               </div>
             ))}
@@ -79,7 +79,7 @@ export default function DiscoverHavilah() {
             {/* Step 1 */}
             <div className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-[#66b3ff] text-white flex items-center justify-center text-xl font-semibold">
+                <div className="w-12 h-12 rounded-full bg-[#1B1F3B] text-white flex items-center justify-center text-xl font-semibold">
                   1
                 </div>
               </div>
@@ -94,7 +94,7 @@ export default function DiscoverHavilah() {
             {/* Step 2 */}
             <div className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-[#66b3ff] text-white flex items-center justify-center text-xl font-semibold">
+                <div className="w-12 h-12 rounded-full bg-[#1B1F3B] text-white flex items-center justify-center text-xl font-semibold">
                   2
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function DiscoverHavilah() {
             {/* Step 3 */}
             <div className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-[#66b3ff] text-white flex items-center justify-center text-xl font-semibold">
+                <div className="w-12 h-12 rounded-full bg-[#1B1F3B] text-white flex items-center justify-center text-xl font-semibold">
                   3
                 </div>
               </div>
@@ -120,23 +120,23 @@ export default function DiscoverHavilah() {
                 </p>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#66b3ff]"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1B1F3B]"></span>
                     solving problems
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#66b3ff]"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1B1F3B]"></span>
                     writing and revising
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#66b3ff]"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1B1F3B]"></span>
                     speaking and explaining
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#66b3ff]"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1B1F3B]"></span>
                     building small projects
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#66b3ff]"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1B1F3B]"></span>
                     answering real scenarios
                   </li>
                 </ul>
@@ -146,7 +146,7 @@ export default function DiscoverHavilah() {
             {/* Step 4 */}
             <div className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-[#66b3ff] text-white flex items-center justify-center text-xl font-semibold">
+                <div className="w-12 h-12 rounded-full bg-[#1B1F3B] text-white flex items-center justify-center text-xl font-semibold">
                   4
                 </div>
               </div>
@@ -161,7 +161,7 @@ export default function DiscoverHavilah() {
             {/* Step 5 */}
             <div className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-[#66b3ff] text-white flex items-center justify-center text-xl font-semibold">
+                <div className="w-12 h-12 rounded-full bg-[#1B1F3B] text-white flex items-center justify-center text-xl font-semibold">
                   5
                 </div>
               </div>
@@ -176,7 +176,7 @@ export default function DiscoverHavilah() {
             {/* Step 6 */}
             <div className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-[#66b3ff] text-white flex items-center justify-center text-xl font-semibold">
+                <div className="w-12 h-12 rounded-full bg-[#1B1F3B] text-white flex items-center justify-center text-xl font-semibold">
                   6
                 </div>
               </div>
@@ -187,19 +187,19 @@ export default function DiscoverHavilah() {
                 </p>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#66b3ff]"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1B1F3B]"></span>
                     your projects and outputs
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#66b3ff]"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1B1F3B]"></span>
                     rubric-based evaluations
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#66b3ff]"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1B1F3B]"></span>
                     progress over time
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#66b3ff]"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1B1F3B]"></span>
                     evidence people can actually review
                   </li>
                 </ul>
@@ -238,7 +238,7 @@ export default function DiscoverHavilah() {
               }
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-4 bg-white p-6 rounded-lg">
-                <item.icon className="w-8 h-8 text-[#66b3ff] flex-shrink-0" />
+                <item.icon className="w-8 h-8 text-[#1B1F3B] flex-shrink-0" />
                 <p className="text-gray-700 text-lg">{item.text}</p>
               </div>
             ))}
@@ -253,7 +253,7 @@ export default function DiscoverHavilah() {
             Start with a goal. Leave with proof.
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-[#66b3ff] hover:bg-[#5599dd] text-white">
+            <Button size="lg" className="bg-[#1B1F3B] hover:bg-[#2E3A6A] text-white">
               Start learning
               <ArrowRight className="w-5 h-5" />
             </Button>

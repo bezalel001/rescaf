@@ -22,14 +22,14 @@ import {
 
 export default function Culture() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#F8F9FB]">
       <Navigation />
       
       {/* Hero */}
-      <section className="relative pt-32 pb-20 px-6 bg-gradient-to-br from-[#66b3ff]/5 via-white to-[#66b3ff]/10">
+      <section className="relative pt-32 pb-20 px-6 bg-gradient-to-br from-[#1B1F3B]/5 via-white to-[#2E3A6A]/10 rescaf-divider rescaf-motif">
         <div className="max-w-6xl mx-auto">
-          <div className="max-w-4xl">
-            <div className="text-sm font-semibold text-[#66b3ff] mb-4 uppercase tracking-wide">
+          <div className="max-w-4xl rescaf-reveal">
+            <div className="text-sm font-semibold text-[#1B1F3B] mb-4 uppercase tracking-wide">
               rescaf Culture
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl mb-6 tracking-tight">
@@ -48,16 +48,16 @@ export default function Culture() {
       </section>
 
       {/* What it feels like */}
-      <section className="py-20 px-6 bg-white">
+      <section className="py-20 px-6 bg-white rescaf-divider">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl mb-12">
+          <h2 className="text-4xl md:text-5xl mb-12 rescaf-reveal">
             What it feels like to work here
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="p-8 border border-gray-200 rounded-lg hover:border-[#66b3ff] transition-colors">
+            <div className="p-8 rounded-2xl rescaf-surface">
               <div className="flex items-center gap-3 mb-4">
-                <Users className="h-8 w-8 text-[#66b3ff]" />
+                <Users className="h-8 w-8 text-[#1B1F3B]" />
                 <h3 className="text-2xl font-semibold">We rise together</h3>
               </div>
               <p className="text-gray-700 leading-relaxed">
@@ -65,9 +65,9 @@ export default function Culture() {
               </p>
             </div>
 
-            <div className="p-8 border border-gray-200 rounded-lg hover:border-[#66b3ff] transition-colors">
+            <div className="p-8 rounded-2xl rescaf-surface">
               <div className="flex items-center gap-3 mb-4">
-                <Award className="h-8 w-8 text-[#66b3ff]" />
+                <Award className="h-8 w-8 text-[#1B1F3B]" />
                 <h3 className="text-2xl font-semibold">We build with ownership</h3>
               </div>
               <p className="text-gray-700 leading-relaxed">
@@ -75,9 +75,9 @@ export default function Culture() {
               </p>
             </div>
 
-            <div className="p-8 border border-gray-200 rounded-lg hover:border-[#66b3ff] transition-colors">
+            <div className="p-8 rounded-2xl rescaf-surface">
               <div className="flex items-center gap-3 mb-4">
-                <Globe className="h-8 w-8 text-[#66b3ff]" />
+                <Globe className="h-8 w-8 text-[#1B1F3B]" />
                 <h3 className="text-2xl font-semibold">We're globally open, and proudly rooted</h3>
               </div>
               <p className="text-gray-700 leading-relaxed">
@@ -85,9 +85,9 @@ export default function Culture() {
               </p>
             </div>
 
-            <div className="p-8 border border-gray-200 rounded-lg hover:border-[#66b3ff] transition-colors">
+            <div className="p-8 rounded-2xl rescaf-surface">
               <div className="flex items-center gap-3 mb-4">
-                <Target className="h-8 w-8 text-[#66b3ff]" />
+                <Target className="h-8 w-8 text-[#1B1F3B]" />
                 <h3 className="text-2xl font-semibold">Excellence is the baseline</h3>
               </div>
               <p className="text-gray-700 leading-relaxed">
@@ -95,9 +95,9 @@ export default function Culture() {
               </p>
             </div>
 
-            <div className="p-8 border border-gray-200 rounded-lg hover:border-[#66b3ff] transition-colors">
+            <div className="p-8 rounded-2xl rescaf-surface">
               <div className="flex items-center gap-3 mb-4">
-                <BookOpen className="h-8 w-8 text-[#66b3ff]" />
+                <BookOpen className="h-8 w-8 text-[#1B1F3B]" />
                 <h3 className="text-2xl font-semibold">We learn out loud</h3>
               </div>
               <p className="text-gray-700 leading-relaxed">
@@ -105,9 +105,9 @@ export default function Culture() {
               </p>
             </div>
 
-            <div className="p-8 border border-gray-200 rounded-lg hover:border-[#66b3ff] transition-colors">
+            <div className="p-8 rounded-2xl rescaf-surface">
               <div className="flex items-center gap-3 mb-4">
-                <Clock className="h-8 w-8 text-[#66b3ff]" />
+                <Clock className="h-8 w-8 text-[#1B1F3B]" />
                 <h3 className="text-2xl font-semibold">We think long-term</h3>
               </div>
               <p className="text-gray-700 leading-relaxed">
@@ -119,29 +119,29 @@ export default function Culture() {
       </section>
 
       {/* How we work */}
-      <section className="py-20 px-6 bg-gray-50">
+      <section className="py-20 px-6 bg-gray-50 rescaf-divider">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl mb-12">
+          <h2 className="text-4xl md:text-5xl mb-12 rescaf-reveal">
             How we work
           </h2>
 
           <div className="space-y-8">
-            <div className="bg-white p-8 border border-gray-200 rounded-lg">
+            <div className="bg-white p-8 rounded-2xl rescaf-surface">
               <div className="flex items-start gap-4">
-                <FileText className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <FileText className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-semibold mb-3">We default to clarity</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start gap-2">
-                      <span className="text-[#66b3ff] mt-1">•</span>
+                      <span className="text-[#1B1F3B] mt-1">•</span>
                       <span>We write things down: specs, decisions, learnings, and expectations.</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#66b3ff] mt-1">•</span>
+                      <span className="text-[#1B1F3B] mt-1">•</span>
                       <span>We prefer clear communication over constant meetings.</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#66b3ff] mt-1">•</span>
+                      <span className="text-[#1B1F3B] mt-1">•</span>
                       <span>We keep plans visible and measurable.</span>
                     </li>
                   </ul>
@@ -149,18 +149,18 @@ export default function Culture() {
               </div>
             </div>
 
-            <div className="bg-white p-8 border border-gray-200 rounded-lg">
+            <div className="bg-white p-8 rounded-2xl rescaf-surface">
               <div className="flex items-start gap-4">
-                <Users className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <Users className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-semibold mb-3">Small teams, high trust</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start gap-2">
-                      <span className="text-[#66b3ff] mt-1">•</span>
+                      <span className="text-[#1B1F3B] mt-1">•</span>
                       <span>Teams move fast with autonomy.</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#66b3ff] mt-1">•</span>
+                      <span className="text-[#1B1F3B] mt-1">•</span>
                       <span>Accountability is real: we deliver, we follow through, we fix what we break.</span>
                     </li>
                   </ul>
@@ -168,18 +168,18 @@ export default function Culture() {
               </div>
             </div>
 
-            <div className="bg-white p-8 border border-gray-200 rounded-lg">
+            <div className="bg-white p-8 rounded-2xl rescaf-surface">
               <div className="flex items-start gap-4">
-                <MessageSquare className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <MessageSquare className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-semibold mb-3">Feedback is direct and respectful</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start gap-2">
-                      <span className="text-[#66b3ff] mt-1">•</span>
+                      <span className="text-[#1B1F3B] mt-1">•</span>
                       <span>We challenge ideas, not people.</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#66b3ff] mt-1">•</span>
+                      <span className="text-[#1B1F3B] mt-1">•</span>
                       <span>We give feedback early, clearly, and with the goal of improvement—not ego.</span>
                     </li>
                   </ul>
@@ -187,27 +187,27 @@ export default function Culture() {
               </div>
             </div>
 
-            <div className="bg-white p-8 border border-gray-200 rounded-lg">
+            <div className="bg-white p-8 rounded-2xl rescaf-surface">
               <div className="flex items-start gap-4">
-                <BarChart3 className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <BarChart3 className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-semibold mb-3">We measure outcomes</h3>
                   <p className="text-gray-700 mb-3">We don't build for hype. We build for results:</p>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start gap-2">
-                      <span className="text-[#66b3ff] mt-1">•</span>
+                      <span className="text-[#1B1F3B] mt-1">•</span>
                       <span>user progress</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#66b3ff] mt-1">•</span>
+                      <span className="text-[#1B1F3B] mt-1">•</span>
                       <span>reliability</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#66b3ff] mt-1">•</span>
+                      <span className="text-[#1B1F3B] mt-1">•</span>
                       <span>security and trust</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#66b3ff] mt-1">•</span>
+                      <span className="text-[#1B1F3B] mt-1">•</span>
                       <span>measurable impact</span>
                     </li>
                   </ul>
@@ -215,9 +215,9 @@ export default function Culture() {
               </div>
             </div>
 
-            <div className="bg-white p-8 border border-gray-200 rounded-lg">
+            <div className="bg-white p-8 rounded-2xl rescaf-surface">
               <div className="flex items-start gap-4">
-                <Lock className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <Lock className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-semibold mb-3">Trust is a feature</h3>
                   <p className="text-gray-700">
@@ -231,9 +231,9 @@ export default function Culture() {
       </section>
 
       {/* How decisions get made */}
-      <section className="py-20 px-6 bg-white">
+      <section className="py-20 px-6 bg-white rescaf-divider">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl mb-6">
+          <h2 className="text-4xl md:text-5xl mb-6 rescaf-reveal">
             How decisions get made
           </h2>
           <p className="text-xl text-gray-700 mb-8">
@@ -242,7 +242,7 @@ export default function Culture() {
 
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="flex items-start gap-3 p-6 bg-gray-50 rounded-lg">
-              <CheckCircle className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+              <CheckCircle className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold text-lg mb-1">Principle-led</h3>
                 <p className="text-gray-600">Aligned with our values</p>
@@ -250,7 +250,7 @@ export default function Culture() {
             </div>
 
             <div className="flex items-start gap-3 p-6 bg-gray-50 rounded-lg">
-              <CheckCircle className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+              <CheckCircle className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold text-lg mb-1">Evidence-driven</h3>
                 <p className="text-gray-600">Data and real-world feedback</p>
@@ -258,7 +258,7 @@ export default function Culture() {
             </div>
 
             <div className="flex items-start gap-3 p-6 bg-gray-50 rounded-lg">
-              <CheckCircle className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+              <CheckCircle className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold text-lg mb-1">Reversible when possible</h3>
                 <p className="text-gray-600">Move fast on decisions that can be undone</p>
@@ -266,7 +266,7 @@ export default function Culture() {
             </div>
 
             <div className="flex items-start gap-3 p-6 bg-gray-50 rounded-lg">
-              <CheckCircle className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+              <CheckCircle className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold text-lg mb-1">Careful when necessary</h3>
                 <p className="text-gray-600">Slow down on high-risk choices—security, safety, reliability</p>
@@ -281,9 +281,9 @@ export default function Culture() {
       </section>
 
       {/* What we look for */}
-      <section className="py-20 px-6 bg-gradient-to-br from-[#66b3ff]/5 to-white">
+      <section className="py-20 px-6 bg-gradient-to-br from-[#1B1F3B]/5 to-white rescaf-divider rescaf-motif">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl mb-6">
+          <h2 className="text-4xl md:text-5xl mb-6 rescaf-reveal">
             What we look for
           </h2>
           <p className="text-xl text-gray-700 mb-12">
@@ -294,7 +294,7 @@ export default function Culture() {
             <h3 className="text-2xl font-semibold mb-6">Signals we value</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex items-start gap-3">
-                <CheckCircle className="h-5 w-5 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <CheckCircle className="h-5 w-5 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <div>
                   <span className="font-semibold">Builders with judgment:</span>
                   <span className="text-gray-700"> you can move fast and make smart trade-offs.</span>
@@ -302,7 +302,7 @@ export default function Culture() {
               </div>
 
               <div className="flex items-start gap-3">
-                <CheckCircle className="h-5 w-5 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <CheckCircle className="h-5 w-5 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <div>
                   <span className="font-semibold">Low ego, high standards:</span>
                   <span className="text-gray-700"> confident, humble, and coachable.</span>
@@ -310,7 +310,7 @@ export default function Culture() {
               </div>
 
               <div className="flex items-start gap-3">
-                <CheckCircle className="h-5 w-5 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <CheckCircle className="h-5 w-5 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <div>
                   <span className="font-semibold">Strong communication:</span>
                   <span className="text-gray-700"> you can explain your thinking clearly (especially in writing).</span>
@@ -318,7 +318,7 @@ export default function Culture() {
               </div>
 
               <div className="flex items-start gap-3">
-                <CheckCircle className="h-5 w-5 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <CheckCircle className="h-5 w-5 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <div>
                   <span className="font-semibold">Ownership mindset:</span>
                   <span className="text-gray-700"> you don't wait to be told; you take responsibility.</span>
@@ -326,7 +326,7 @@ export default function Culture() {
               </div>
 
               <div className="flex items-start gap-3">
-                <CheckCircle className="h-5 w-5 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <CheckCircle className="h-5 w-5 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <div>
                   <span className="font-semibold">Context-aware thinking:</span>
                   <span className="text-gray-700"> you design for real constraints and real people.</span>
@@ -334,7 +334,7 @@ export default function Culture() {
               </div>
 
               <div className="flex items-start gap-3">
-                <CheckCircle className="h-5 w-5 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <CheckCircle className="h-5 w-5 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <div>
                   <span className="font-semibold">Mission alignment:</span>
                   <span className="text-gray-700"> you care about expanding opportunity and building trustworthy systems.</span>
@@ -376,9 +376,9 @@ export default function Culture() {
       </section>
 
       {/* How we grow people */}
-      <section className="py-20 px-6 bg-white">
+      <section className="py-20 px-6 bg-white rescaf-divider">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl mb-6">
+          <h2 className="text-4xl md:text-5xl mb-6 rescaf-reveal">
             How we grow people
           </h2>
           <p className="text-xl text-gray-700 mb-8">
@@ -386,29 +386,29 @@ export default function Culture() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-8">
-            <div className="flex items-start gap-3 p-6 border border-gray-200 rounded-lg">
-              <TrendingUp className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+            <div className="flex items-start gap-3 p-6 rounded-2xl rescaf-surface">
+              <TrendingUp className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold text-lg mb-1">Mentorship and peer coaching</h3>
               </div>
             </div>
 
-            <div className="flex items-start gap-3 p-6 border border-gray-200 rounded-lg">
-              <BookOpen className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+            <div className="flex items-start gap-3 p-6 rounded-2xl rescaf-surface">
+              <BookOpen className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold text-lg mb-1">Documentation and internal learning sessions</h3>
               </div>
             </div>
 
-            <div className="flex items-start gap-3 p-6 border border-gray-200 rounded-lg">
-              <Target className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+            <div className="flex items-start gap-3 p-6 rounded-2xl rescaf-surface">
+              <Target className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold text-lg mb-1">Room to lead projects and own outcomes</h3>
               </div>
             </div>
 
-            <div className="flex items-start gap-3 p-6 border border-gray-200 rounded-lg">
-              <MessageSquare className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+            <div className="flex items-start gap-3 p-6 rounded-2xl rescaf-surface">
+              <MessageSquare className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold text-lg mb-1">Feedback that helps you improve fast</h3>
               </div>
@@ -422,9 +422,9 @@ export default function Culture() {
       </section>
 
       {/* Working globally */}
-      <section className="py-20 px-6 bg-gray-50">
+      <section className="py-20 px-6 bg-gray-50 rescaf-divider">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl mb-6">
+          <h2 className="text-4xl md:text-5xl mb-6 rescaf-reveal">
             Working globally
           </h2>
           <p className="text-xl text-gray-700 mb-8">
@@ -432,22 +432,22 @@ export default function Culture() {
           </p>
 
           <div className="space-y-4">
-            <div className="flex items-start gap-3 p-6 bg-white rounded-lg border border-gray-200">
-              <Globe className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+            <div className="flex items-start gap-3 p-6 rounded-2xl rescaf-surface">
+              <Globe className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
               <p className="text-gray-700">
                 We respect time zones and use async communication where possible.
               </p>
             </div>
 
-            <div className="flex items-start gap-3 p-6 bg-white rounded-lg border border-gray-200">
-              <FileText className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+            <div className="flex items-start gap-3 p-6 rounded-2xl rescaf-surface">
+              <FileText className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
               <p className="text-gray-700">
                 We document decisions so everyone can stay aligned.
               </p>
             </div>
 
-            <div className="flex items-start gap-3 p-6 bg-white rounded-lg border border-gray-200">
-              <Shield className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+            <div className="flex items-start gap-3 p-6 rounded-2xl rescaf-surface">
+              <Shield className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
               <p className="text-gray-700">
                 We design workflows that work across countries and cultures.
               </p>
@@ -457,16 +457,16 @@ export default function Culture() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-6 bg-white">
+      <section className="py-20 px-6 bg-white rescaf-divider">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl md:text-5xl mb-12">
+          <h2 className="text-4xl md:text-5xl mb-12 rescaf-reveal">
             Culture FAQ
           </h2>
 
           <div className="space-y-6">
             <div className="border-b border-gray-200 pb-6">
               <div className="flex items-start gap-3 mb-3">
-                <HelpCircle className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <HelpCircle className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <h3 className="text-xl font-semibold">Do you work remote?</h3>
               </div>
               <p className="text-gray-700 ml-9">
@@ -476,7 +476,7 @@ export default function Culture() {
 
             <div className="border-b border-gray-200 pb-6">
               <div className="flex items-start gap-3 mb-3">
-                <HelpCircle className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <HelpCircle className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <h3 className="text-xl font-semibold">What matters most in performance?</h3>
               </div>
               <p className="text-gray-700 ml-9">
@@ -486,7 +486,7 @@ export default function Culture() {
 
             <div className="border-b border-gray-200 pb-6">
               <div className="flex items-start gap-3 mb-3">
-                <HelpCircle className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <HelpCircle className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <h3 className="text-xl font-semibold">How do you handle mistakes?</h3>
               </div>
               <p className="text-gray-700 ml-9">
@@ -496,7 +496,7 @@ export default function Culture() {
 
             <div className="border-b border-gray-200 pb-6">
               <div className="flex items-start gap-3 mb-3">
-                <HelpCircle className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <HelpCircle className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <h3 className="text-xl font-semibold">What's the pace like?</h3>
               </div>
               <p className="text-gray-700 ml-9">
@@ -506,7 +506,7 @@ export default function Culture() {
 
             <div className="pb-6">
               <div className="flex items-start gap-3 mb-3">
-                <HelpCircle className="h-6 w-6 text-[#66b3ff] mt-1 flex-shrink-0" />
+                <HelpCircle className="h-6 w-6 text-[#1B1F3B] mt-1 flex-shrink-0" />
                 <h3 className="text-xl font-semibold">Do you hire internationally?</h3>
               </div>
               <p className="text-gray-700 ml-9">
@@ -518,9 +518,9 @@ export default function Culture() {
       </section>
 
       {/* Join us CTA */}
-      <section className="py-20 px-6 bg-gradient-to-br from-[#66b3ff]/5 to-white">
+      <section className="py-20 px-6 bg-gradient-to-br from-[#1B1F3B]/5 to-white rescaf-motif">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl mb-6">
+          <h2 className="text-4xl md:text-5xl mb-6 rescaf-reveal">
             Join us
           </h2>
           
@@ -531,7 +531,7 @@ export default function Culture() {
           <div className="flex flex-wrap gap-4 justify-center">
             <Button 
               size="lg" 
-              className="bg-[#66b3ff] hover:bg-[#5599dd] text-white px-8 py-6 text-lg"
+              className="bg-[#1B1F3B] hover:bg-[#2E3A6A] text-white px-8 py-6 text-lg"
             >
               View open roles
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -539,7 +539,7 @@ export default function Culture() {
             <Button 
               size="lg" 
               variant="outline"
-              className="border-2 border-[#66b3ff] text-[#66b3ff] hover:bg-[#66b3ff]/5 px-8 py-6 text-lg"
+              className="border-2 border-[#1B1F3B] text-[#1B1F3B] hover:bg-[#1B1F3B]/5 px-8 py-6 text-lg"
             >
               Partner with rescaf
             </Button>

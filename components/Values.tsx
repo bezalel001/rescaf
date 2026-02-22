@@ -50,7 +50,7 @@ export function Values() {
     <section className="py-20 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="max-w-4xl mb-12">
-          <div className="text-sm font-semibold text-[#66b3ff] mb-4 uppercase tracking-wide">
+          <div className="text-sm font-semibold text-[#1B1F3B] mb-4 uppercase tracking-wide">
             rescaf values
           </div>
           <h2 className="text-4xl md:text-5xl mb-4">
@@ -64,17 +64,17 @@ export function Values() {
             return (
               <div 
                 key={value.number}
-                className="relative p-8 border border-gray-200 rounded-lg hover:border-[#66b3ff] transition-colors group bg-gradient-to-br from-white to-gray-50"
+                className="relative p-8 border border-gray-200 rounded-lg hover:border-[#1B1F3B] transition-colors group bg-gradient-to-br from-white to-gray-50"
               >
                 <div className="flex items-start gap-4 mb-4">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-[#66b3ff]/10 flex items-center justify-center text-[#66b3ff] font-bold text-xl group-hover:bg-[#66b3ff] group-hover:text-white transition-colors">
+                    <div className="w-12 h-12 rounded-full bg-[#1B1F3B]/10 flex items-center justify-center text-[#1B1F3B] font-bold text-xl group-hover:bg-[#1B1F3B] group-hover:text-white transition-colors">
                       {value.number}
                     </div>
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-3">
-                      <Icon className="h-6 w-6 text-[#66b3ff] flex-shrink-0" />
+                      <Icon className="h-6 w-6 text-[#1B1F3B] flex-shrink-0" />
                       <h3 className="text-xl font-semibold leading-tight">{value.title}</h3>
                     </div>
                   </div>

@@ -3,9 +3,9 @@ import { ArrowRight, Mail } from 'lucide-react';
 
 export function Partnership() {
   return (
-    <section className="py-20 px-6 bg-gradient-to-br from-[#66b3ff]/5 to-white">
+    <section className="py-20 px-6 bg-gradient-to-br from-[#1B1F3B]/5 to-white">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="text-sm font-semibold text-[#66b3ff] mb-4 uppercase tracking-wide">
+        <div className="text-sm font-semibold text-[#1B1F3B] mb-4 uppercase tracking-wide">
           Partner with rescaf
         </div>
         
@@ -20,7 +20,7 @@ export function Partnership() {
         <div className="flex flex-wrap gap-4 justify-center">
           <Button 
             size="lg" 
-            className="bg-[#66b3ff] hover:bg-[#5599dd] text-white px-8 py-6 text-lg"
+            className="bg-[#1B1F3B] hover:bg-[#2E3A6A] text-white px-8 py-6 text-lg"
           >
             <Mail className="mr-2 h-5 w-5" />
             Contact us

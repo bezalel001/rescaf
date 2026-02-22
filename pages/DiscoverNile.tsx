@@ -9,7 +9,7 @@ export default function DiscoverNile() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6 bg-gradient-to-b from-blue-50 to-white">
+      <section className="pt-32 pb-20 px-6 bg-gradient-to-b from-[#F8F9FB] to-white">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl mb-6 text-gray-900">
             Nile
@@ -21,7 +21,7 @@ export default function DiscoverNile() {
             Nile helps organizations, DPOs, and consultants review privacy notices against GDPR transparency duties (Articles 12–14). After uploading a privacy notice, Nile maps each requirement to the most relevant sections of the document and provides a clear result (covered / partially covered / missing / not applicable / needs review).
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-[#66b3ff] hover:bg-[#5599dd] text-white">
+            <Button size="lg" className="bg-[#1B1F3B] hover:bg-[#2E3A6A] text-white">
               Start checking
               <ArrowRight className="w-5 h-5" />
             </Button>
@@ -57,7 +57,7 @@ export default function DiscoverNile() {
               'Legal teams validating privacy notice completeness'
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-3 bg-white p-6 rounded-lg">
-                <CheckCircle className="w-6 h-6 text-[#66b3ff] flex-shrink-0 mt-1" />
+                <CheckCircle className="w-6 h-6 text-[#1B1F3B] flex-shrink-0 mt-1" />
                 <p className="text-gray-700">{item}</p>
               </div>
             ))}
@@ -76,7 +76,7 @@ export default function DiscoverNile() {
             {/* Step 1 */}
             <div className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-[#66b3ff] text-white flex items-center justify-center text-xl font-semibold">
+                <div className="w-12 h-12 rounded-full bg-[#1B1F3B] text-white flex items-center justify-center text-xl font-semibold">
                   1
                 </div>
               </div>
@@ -91,7 +91,7 @@ export default function DiscoverNile() {
             {/* Step 2 */}
             <div className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-[#66b3ff] text-white flex items-center justify-center text-xl font-semibold">
+                <div className="w-12 h-12 rounded-full bg-[#1B1F3B] text-white flex items-center justify-center text-xl font-semibold">
                   2
                 </div>
               </div>
@@ -106,7 +106,7 @@ export default function DiscoverNile() {
             {/* Step 3 */}
             <div className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-[#66b3ff] text-white flex items-center justify-center text-xl font-semibold">
+                <div className="w-12 h-12 rounded-full bg-[#1B1F3B] text-white flex items-center justify-center text-xl font-semibold">
                   3
                 </div>
               </div>
@@ -133,7 +133,7 @@ export default function DiscoverNile() {
                     <span><strong>Not applicable</strong> — Requirement doesn&apos;t apply to your case</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#1B1F3B]"></span>
                     <span><strong>Needs review</strong> — Manual verification recommended</span>
                   </li>
                 </ul>
@@ -143,7 +143,7 @@ export default function DiscoverNile() {
             {/* Step 4 */}
             <div className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-[#66b3ff] text-white flex items-center justify-center text-xl font-semibold">
+                <div className="w-12 h-12 rounded-full bg-[#1B1F3B] text-white flex items-center justify-center text-xl font-semibold">
                   4
                 </div>
               </div>
@@ -158,7 +158,7 @@ export default function DiscoverNile() {
             {/* Step 5 */}
             <div className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-[#66b3ff] text-white flex items-center justify-center text-xl font-semibold">
+                <div className="w-12 h-12 rounded-full bg-[#1B1F3B] text-white flex items-center justify-center text-xl font-semibold">
                   5
                 </div>
               </div>
@@ -173,7 +173,7 @@ export default function DiscoverNile() {
             {/* Step 6 */}
             <div className="flex gap-6">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-[#66b3ff] text-white flex items-center justify-center text-xl font-semibold">
+                <div className="w-12 h-12 rounded-full bg-[#1B1F3B] text-white flex items-center justify-center text-xl font-semibold">
                   6
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function DiscoverNile() {
               }
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-4 bg-white p-6 rounded-lg">
-                <item.icon className="w-8 h-8 text-[#66b3ff] flex-shrink-0" />
+                <item.icon className="w-8 h-8 text-[#1B1F3B] flex-shrink-0" />
                 <p className="text-gray-700 text-lg">{item.text}</p>
               </div>
             ))}
@@ -231,7 +231,7 @@ export default function DiscoverNile() {
           <p className="text-lg text-gray-700 mb-6">
             Nile focuses specifically on GDPR Articles 12–14, which establish the transparency obligations that organizations must meet when collecting and processing personal data.
           </p>
-          <div className="bg-blue-50 border border-[#66b3ff] rounded-lg p-6">
+          <div className="bg-[#F8F9FB] border border-[#1B1F3B] rounded-lg p-6">
             <p className="text-gray-700">
               <strong>Article 12:</strong> Transparent information, communication and modalities for exercising data subject rights
             </p>
@@ -252,7 +252,7 @@ export default function DiscoverNile() {
             Check your compliance. Ship with confidence.
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-[#66b3ff] hover:bg-[#5599dd] text-white">
+            <Button size="lg" className="bg-[#1B1F3B] hover:bg-[#2E3A6A] text-white">
               Start checking
               <ArrowRight className="w-5 h-5" />
             </Button>

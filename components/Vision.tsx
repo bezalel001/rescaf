@@ -3,7 +3,7 @@ export function Vision() {
     <section className="py-20 px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <div className="max-w-4xl">
-          <div className="text-sm font-semibold text-[#66b3ff] mb-4 uppercase tracking-wide">
+          <div className="text-sm font-semibold text-[#1B1F3B] mb-4 uppercase tracking-wide">
             About rescaf
           </div>
           

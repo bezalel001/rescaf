@@ -24,7 +24,7 @@ export function RescafNexus() {
     <section className="py-20 px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <div className="max-w-4xl mb-12">
-          <div className="text-sm font-semibold text-[#66b3ff] mb-4 uppercase tracking-wide">
+          <div className="text-sm font-semibold text-[#1B1F3B] mb-4 uppercase tracking-wide">
             Who we serve
           </div>
           <h2 className="text-4xl md:text-5xl mb-4">
@@ -38,10 +38,10 @@ export function RescafNexus() {
             return (
               <div 
                 key={audience.title}
-                className="bg-white p-6 rounded-lg border border-gray-200 hover:border-[#66b3ff] transition-colors"
+                className="bg-white p-6 rounded-lg border border-gray-200 hover:border-[#1B1F3B] transition-colors"
               >
-                <div className="p-3 bg-[#66b3ff]/10 rounded-lg inline-block mb-4">
-                  <Icon className="h-8 w-8 text-[#66b3ff]" />
+                <div className="p-3 bg-[#1B1F3B]/10 rounded-lg inline-block mb-4">
+                  <Icon className="h-8 w-8 text-[#1B1F3B]" />
                 </div>
                 <h3 className="text-lg font-semibold leading-snug">
                   {audience.title}
