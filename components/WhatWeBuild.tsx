@@ -1,5 +1,6 @@
 import { Button } from './ui/button';
 import { ArrowRight, Target, CheckCircle, FileCheck } from 'lucide-react';
+import { Link } from 'react-router';
 
 export function WhatWeBuild() {
   return (
@@ -58,13 +59,15 @@ export function WhatWeBuild() {
               </div>
             </div>
 
-            <Button 
-              variant="outline" 
-              className="border-[#66b3ff] text-[#66b3ff] hover:bg-[#66b3ff]/5"
-            >
-              Discover Havilah
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <Link to="/discover-havilah">
+              <Button 
+                variant="outline" 
+                className="border-[#66b3ff] text-[#66b3ff] hover:bg-[#66b3ff]/5"
+              >
+                Discover Havilah
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
           </div>
 
           {/* Nile */}
@@ -104,13 +107,15 @@ export function WhatWeBuild() {
               </div>
             </div>
 
-            <Button 
-              variant="outline" 
-              className="border-[#66b3ff] text-[#66b3ff] hover:bg-[#66b3ff]/5"
-            >
-              Discover Nile
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <Link to="/discover-nile">
+              <Button 
+                variant="outline" 
+                className="border-[#66b3ff] text-[#66b3ff] hover:bg-[#66b3ff]/5"
+              >
+                Discover Nile
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
           </div>
         </div>
 

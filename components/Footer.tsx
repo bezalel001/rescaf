@@ -1,5 +1,3 @@
-import { Mail, MapPin, Linkedin, Twitter, Youtube } from 'lucide-react';
-
 export function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12 px-6">

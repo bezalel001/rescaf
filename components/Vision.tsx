@@ -1,5 +1,3 @@
-import { Target, Heart, Compass } from 'lucide-react';
-
 export function Vision() {
   return (
     <section className="py-20 px-6 bg-gray-50">

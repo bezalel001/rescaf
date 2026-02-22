@@ -55,6 +55,8 @@ yarn build
 pnpm build
 ```
 
+The build output will be in the `dist/` directory.
+
 ### Preview
 
 Preview the production build:
@@ -66,6 +68,14 @@ yarn preview
 # or
 pnpm preview
 ```
+
+### Deployment
+
+This project is configured for easy deployment on Netlify, Vercel, or any static hosting service:
+
+- **Netlify**: The `netlify.toml` file is included with proper configuration
+- **Build Command**: `npm run build`
+- **Publish Directory**: `dist`
 
 ## Project Structure
 
